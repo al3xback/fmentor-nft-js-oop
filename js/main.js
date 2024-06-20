@@ -46,9 +46,9 @@ class Card extends Component {
 
 		const cardImageEl = this.createElement('img', null, null, [
 			this.createElementAttribute('src', './images/equilibrium.jpg'),
-			this.createElementAttribute('alt', 'Equilibrium'),
 			this.createElementAttribute('width', 302),
 			this.createElementAttribute('height', 302),
+			this.createElementAttribute('alt', 'Equilibrium'),
 		]);
 
 		cardImageWrapperEl.appendChild(cardImageEl);
@@ -113,9 +113,9 @@ class Card extends Component {
 			null,
 			[
 				this.createElementAttribute('src', './images/avatar.png'),
-				this.createElementAttribute('alt', 'Jules Wyvern'),
 				this.createElementAttribute('width', 33),
 				this.createElementAttribute('height', 33),
+				this.createElementAttribute('alt', 'Jules Wyvern'),
 			]
 		);
 
